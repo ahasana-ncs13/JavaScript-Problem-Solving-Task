@@ -1,11 +1,11 @@
-const str ="programming";
+// const str 
 let count =0
-const countVowels=()=>{
+const countVowels=(str)=>{
     for (const s of str) {
     if ("aeiou".includes(s)) {
         count++
     }
 }
 }
-countVowels()
+countVowels("programming")
 console.log(count)
